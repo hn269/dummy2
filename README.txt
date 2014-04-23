@@ -24,8 +24,10 @@ The other one (dummy2) is to demonstrate the functioning of wxPython with differ
 Links:
 ------
 
-ReadTheDocs: https://readthedocs.org/projects/dummy2/
-GitHub: https://github.com/hn269/dummy2/
+- ReadTheDocs: https://readthedocs.org/projects/dummy2/
+- GitHub: https://github.com/hn269/dummy2/
+
+Executable can be download on from GitHub in *dist* directory, or by the link: https://raw.githubusercontent.com/hn269/dummy2/develop/dist/dummy2a.exe
 
 Quickstart:
 -----------
