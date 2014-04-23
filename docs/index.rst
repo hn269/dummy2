@@ -6,7 +6,7 @@
 Welcome to dummy2's documentation!
 ==================================
 
-.. include:: ../README.txt
+.. include:: README.txt
 
 Contents:
 ---------
