@@ -24,11 +24,14 @@ release Python package, including proper tests and documentations. The ultimate
 goal of this project is to release a Python package of John A. Marohn 
 (jam99@cornell.edu) onto GitHub and PyPI.
 
-The dummy package
------------------
+The dummy2 program
+------------------
 
-This package is to test the functioning and compatibility of ReadTheDocs and Git 
+This program is to test the functioning and compatibility of ReadTheDocs and Git 
 with executables generated from Python codes.
+
+This program is an example of coding for an executable with GUI by wxPython.
+
 
     
 
@@ -106,6 +109,7 @@ class ExamplePanel(wx.Panel):
         self.SetSizerAndFit(mainSizer)
         self.SetAutoLayout(True)
 
+
     def EvtRadioBox(self, event):
         self.logger.AppendText('EvtRadioBox: %d\n' % event.GetInt())
     def EvtComboBox(self, event):
@@ -130,7 +134,5 @@ nb = wx.Notebook(frame)
 nb.AddPage(ExamplePanel(nb), "Absolute Positioning")
 nb.AddPage(ExamplePanel(nb), "Page Two")
 nb.AddPage(ExamplePanel(nb), "Page Three")
-frame.Show()
-app.MainLoop()
 frame.Show()
 app.MainLoop()

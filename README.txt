@@ -14,21 +14,23 @@ goal of this project is to release a Python package of John A. Marohn
 :Authors: Hoang Long Nguyen
 :Email: hn269@cornell.edu
 
-The dummy2 program
-------------------
+The dummy2 programs
+-------------------
 
-This program was developed in the course of this project. 
-This is a simple dummy text editor.
+These programs were developed in the course of this project. 
+One (dummy2a) is a simple dummy text editor.
+The other one (dummy2) is to demonstrate the functioning of wxPython with different events.
 
 Links:
 ------
 
 ReadTheDocs: https://readthedocs.org/projects/dummy2/
+GitHub: https://github.com/hn269/dummy2/
 
 Quickstart:
 -----------
 
-+ Run dummy2.exe
++ Run dummy2a.exe
 + Edit text, open and save files
 
 Dependencies:

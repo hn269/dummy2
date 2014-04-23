@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # dummy2 documentation build configuration file, created by
-# sphinx-quickstart on Tue Apr 22 19:55:35 2014.
+# sphinx-quickstart on Tue Apr 22 20:32:53 2014.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.

@@ -1,7 +1,8 @@
 #! /usr/bin/env python
 
 from __future__ import print_function
-from distutils.core  import setup
+from setuptools import setup
+from distutils.core import setup as setupexe
 
 import io
 import os
@@ -32,14 +33,18 @@ setup(
     description='Dummy package adding, subtracting or multiplying two numbers - to try releasing a Python package',
     long_description=long_description,
     packages=['dummy2',],
-    data_files=[('',['requirements.txt','changes.txt','icons\Dummy_icon.ico']),],
+    data_files=[('',['requirements.txt','changes.txt','icons\Dummy_icon.ico']),],)
+    
+setupexe(
+    name='dummy2',
+    packages=['dummy2',],
     windows=[
         {
-        "script":'dummy2\dummy2.0.py',
+        "script":'dummy2\dummy2a.py',
         "icon_resources": [(0,"Dummy_icon.ico")],
         }],
     console=[{
-        "script":'dummy2\dummy2.0.py',
+        "script":'dummy2\dummy2a.py',
         "icon_resources": [(0,"Dummy_icon.ico")],
         }],
     #zip_safe = True,

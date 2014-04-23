@@ -1,10 +1,24 @@
 #!/usr/bin/env python
 #
-# \Dropbox\Reasearch_Nguyen\Dummy\dummy\
+# \Dropbox\Reasearch_Nguyen\Dummy2\dummy2\
 # Hoang Long Nguyen (hn269@cornell.edu)
 # 2014/04/21
 #
 # 
+
+"""
+The Python Documentation and Release Project
+============================================
+
+The dummy2a program
+--------------------
+
+This program is to test the functioning and compatibility of ReadTheDocs and Git 
+with executables generated from Python codes.
+
+This program is an example of coding for a simple text editor with GUI by wxPython.
+
+"""
 
 import wx
 import os.path
