@@ -1,88 +1,10 @@
 Metadata-Version: 1.0
 Name: dummy2
-Version: 0.0
-Summary: Dummy package adding, subtracting or multiplying two numbers - to try releasing a Python package
-Home-page: http://github.com/hn269/dummy2/
-Author: Hoang Long Nguyen
-Author-email: hn269@cornell.com
-License: Cornell University
-Description: ==========================================
-        Python Documentation and Releasing Project
-        ==========================================
-        
-        
-        Introduction
-        ------------
-        
-        This project is an attempt at documenting Python code and prepare a ready-to-
-        release Python package, including proper tests and documentations. The ultimate 
-        goal of this project is to release a Python package of John A. Marohn 
-        (jam99@cornell.edu) onto GitHub and PyPI.
-        
-        :Authors: Hoang Long Nguyen
-        :Email: hn269@cornell.edu
-        
-        The dummy2 program
-        ------------------
-        
-        This program was developed in the course of this project. 
-        This is a simple dummy text editor.
-        
-        Links:
-        ------
-        
-        ReadTheDocs: https://readthedocs.org/projects/dummy2/
-        
-        Quickstart:
-        -----------
-        
-        + Run dummy2.exe
-        + Edit text, open and save files
-        
-        Dependencies:
-        -------------
-        
-        jinja 2.7.2 for documentation.
-        
-        
-        jinja2==2.7.2,
-        pytest==2.5.2,
-        setuptools==3.4.3,
-        mock==1.0.1
-        version 2.0.0
-        -------------
-        
-        + this is an version independent of any previous package.
-        
-        version 0.1.0
-        -------------
-        
-        + add a function caluclating a circle's area, using numpy requirements.
-        + update requirements.txt and setup.py, README.txt
-        + now require: numpy (for new function), setuptools (for setup), jinja2 and mock (for documentation on ReadTheDocs)
-        
-        version 0.0.5
-        -------------
-        
-        + update README.txt with proper instruction
-        
-        version 0.0.4
-        -------------
-        
-        + include file ``requirements.txt`` and ``changes.txt`` into the package
-        
-        version 0.0.3
-        -------------
-        
-        + change ``add`` and ``sub`` into sub-module ``add.py`` and ``sub.py``
-        + modify the main ``dummy.py`` accordingly
-        + modify the ``test_dummy.py`` accordingly
-        + include the *docs* folder into the package
-        
-        version 0.0.2
-        -------------
-        
-        + remove requirement ``numpy>=1.0.0``
-        + include requirement ``jinja2>=2.0.0`` for documentation
-        + include the ``changes.txt`` file
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
 Platform: UNKNOWN

@@ -24,8 +24,8 @@ The other one (dummy2) is to demonstrate the functioning of wxPython with differ
 Links:
 ------
 
-ReadTheDocs: https://readthedocs.org/projects/dummy2/
-GitHub: https://github.com/hn269/dummy2/
+- ReadTheDocs: https://readthedocs.org/projects/dummy2/
+- GitHub: https://github.com/hn269/dummy2/
 
 Quickstart:
 -----------
