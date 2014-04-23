@@ -6,9 +6,49 @@
 #
 # 
 
+"""
+The Python Documentation and Release Project
+============================================
+
+.. image:: Dummy_icon.png
+    :height: 100px
+    :alt: logo
+    :align: center
+    
+
+Introduction
+------------
+
+This project is an attempt at documenting Python code and prepare a ready-to-
+release Python package, including proper tests and documentations. The ultimate 
+goal of this project is to release a Python package of John A. Marohn 
+(jam99@cornell.edu) onto GitHub and PyPI.
+
+The dummy package
+-----------------
+
+This package is to test the functioning and compatibility of ReadTheDocs and Git 
+with executables generated from Python codes.
+
+    
+
+"""
+
+
 import wx
 class ExamplePanel(wx.Panel):
+    """ 
+    We are modifying the original wx.Panel class to show example of learning the 
+    different function of wxPython, including different type of events such as 
+    clicking, typing and keystroke.
+    """
     def __init__(self, parent):
+        """
+        The main codes of this class is in this __init__ function, including 
+        creating *sizers* for the TextCtrl showing event, a button for clicking,
+        binding event to sub-functions, creating a textbox for name, a combobox 
+        control, a checkbox and a radiobox.
+        """
         wx.Panel.__init__(self, parent)
 
         # create some sizers
@@ -60,7 +100,6 @@ class ExamplePanel(wx.Panel):
 
         hSizer.Add(grid, 0, wx.ALL, 5)
         hSizer.Add(self.logger,1,wx.ALL, 5)
-        hSizer.Fit(hSizer)
         mainSizer.Add(hSizer, 0, wx.ALL, 5)
         mainSizer.Add(self.button, 0, wx.CENTER)
         
