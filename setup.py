@@ -38,14 +38,12 @@ setup(
 setupexe(
     name='dummy2',
     packages=['dummy2',],
-    windows=[
-        {
+    windows=[{
         "script":'dummy2\dummy2a.py',
         "icon_resources": [(0,"Dummy_icon.ico")],
         }],
     console=[{
-        "script":'dummy2\dummy2a.py',
-        "icon_resources": [(0,"Dummy_icon.ico")],
+        "script":'dummy2\dummy2a.py', "icon_resources": [(0,"Dummy_icon.ico")],
         }],
     #zip_safe = True,
 )

@@ -1,5 +1,9 @@
 README.txt
 setup.py
+Dummy_icon.ico
+icons/Dummy_icon3.ico
+icons/Dummy_icon.ico
+icons/Dummy_icon.png
 dummy2/__init__.py
 dummy2/dummy2.py
 dummy2/dummy2a.py
@@ -7,3 +11,9 @@ dummy2.egg-info/PKG-INFO
 dummy2.egg-info/SOURCES.txt
 dummy2.egg-info/dependency_links.txt
 dummy2.egg-info/top_level.txt
+docs/make.bat
+docs/conf.py
+docs/makefile
+docs/index.rst
+docs/dummy2.rst
+docs/README.txt

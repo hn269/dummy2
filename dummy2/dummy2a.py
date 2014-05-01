@@ -28,7 +28,7 @@ class MainWindow(wx.Frame):
     def __init__(self, filename='untitled.txt'):
         # A "-1" in the size parameter instructs wxWidgets to use the default size.
         # In this case, we select 200px width and the default height.
-        super(MainWindow, self).__init__(None, size=(500,-1))
+        super(MainWindow, self).__init__(None, size=(-1,-1))
         self.filename = filename
         self.dirname = '.'
         """ Create "interior" window components. In this case it is just a

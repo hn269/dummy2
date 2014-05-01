@@ -38,6 +38,7 @@ class ExamplePanel(wx.Panel):
         binding event to sub-functions, creating a textbox for name, a combobox 
         control, a checkbox and a radiobox.
         """
+        
         wx.Panel.__init__(self, parent)
 
         # create some sizers

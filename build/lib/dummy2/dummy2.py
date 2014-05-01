@@ -10,20 +10,6 @@
 The Python Documentation and Release Project
 ============================================
 
-.. image:: Dummy_icon.png
-    :height: 100px
-    :alt: logo
-    :align: center
-    
-
-Introduction
-------------
-
-This project is an attempt at documenting Python code and prepare a ready-to-
-release Python package, including proper tests and documentations. The ultimate 
-goal of this project is to release a Python package of John A. Marohn 
-(jam99@cornell.edu) onto GitHub and PyPI.
-
 The dummy2 program
 ------------------
 
